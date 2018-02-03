@@ -2,6 +2,8 @@ import React, {Component} from "react";
 import Header from "./../Header";
 import Footer from "./../Footer";
 
+import "./Game.css";
+
 import cards from "./../../cards.json"
 
 class Game extends Component {
@@ -25,9 +27,12 @@ class Game extends Component {
             <div className="container">
                 <Header />
                     {this.state.chihuahuas.map(chihuahua => 
-                        <button onClick={() => this.pickedChihuahua(chihuahua)} key={chihuahua.id}>
-                            <img src={chihuahua.image} alt={chihuahua.name}/>
-                        </button>
+                        <div 
+                            className="card" 
+                            onClick={() => this.pickedChihuahua(chihuahua)} 
+                            key={chihuahua.id} 
+                            style={{ backgroundImage: `url("${chihuahua.image}")`}}>
+                        </div>
                     )}
                 <Footer />
             </div>
