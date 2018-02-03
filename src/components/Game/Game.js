@@ -52,15 +52,17 @@ class Game extends Component {
         return (
             <div className="container">
                 <Header winCount={this.state.winCount} guessCount={this.state.guessCount} />
-                    {this.state.chihuahuas.map(chihuahua => 
-                       <Card
-                            key = {chihuahua.id}
-                            id = {chihuahua.id}
-                            image = {chihuahua.image}
-                            name = {chihuahua.name}
-                            pickedChihuahua = {this.pickedChihuahua}
-                       />
-                    )}
+                    <div className="card-container">
+                        {this.state.chihuahuas.map(chihuahua => 
+                        <Card
+                                key = {chihuahua.id}
+                                id = {chihuahua.id}
+                                image = {chihuahua.image}
+                                name = {chihuahua.name}
+                                pickedChihuahua = {this.pickedChihuahua}
+                        />
+                        )}
+                    </div>
                 <Footer />
             </div>
         )
