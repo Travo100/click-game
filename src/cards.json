@@ -2,32 +2,32 @@
     {
       "id": 1,
       "image": "/assets/images/brown-chihuahua.jpg",
-      "clicked": false
+      "name": "Brown Chihuahua"
     },
     {
       "id": 2,
       "image": "/assets/images/chubby-chihuahua.jpg",
-      "clicked": false
+      "name": "Chubby Chihuahua"
     },
     {
       "id": 3,
       "image": "/assets/images/grumpy-chihuahua.jpg",
-      "clicked": false
+      "name": "Grumpy Chihuahua"
     },
     {
       "id": 4,
       "image": "/assets/images/lady-chihuahua.jpg",
-      "clicked": false
+      "name": "Lady Chihuahua"
     },
     {
       "id": 5,
       "image": "/assets/images/stern-chihuahua.jpg",
-      "clicked": false
+      "name": "Stern Chihuahua"
     },
     {
       "id": 6,
-      "image": "/assets/images/white-chihuahua.png",
-      "clicked": false
+      "image": "/assets/images/white-chihuahua.jpg",
+      "name": "White Chihuahua"
     }
   ]
   
