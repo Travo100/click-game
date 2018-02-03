@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/images/brown-chihuahua.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/chubby-chihuahua.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/grumpy-chihuahua.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/lady-chihuahua.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/stern-chihuahua.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "/assets/images/white-chihuahua.png",
+      "clicked": false
+    }
+  ]
+  
